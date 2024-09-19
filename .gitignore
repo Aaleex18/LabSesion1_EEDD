@@ -1,32 +1,34 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
+/build-release/
+*.mk
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+.codelite/
+*.xrc
+*.txt
+!CMakeLists.txt
+*.gch
+.clangd/
+*.a
+*.bak
+*.orig
+*.log
+tags
+*.diff
+Makefile
+build-Debug/
+build-Win*/
+Debug/
+Release/
+build-Debug*/
+*build-debug*/
+build-*release*/
+build-*debug*/
+.cache/
+ctags/
+.ctagsd/
+compile_commands.json
+compile_flags.txt
+wxcrafter/src/wxcversion.cpp
+LiteEditor/autoversion.h
+.DS_Store
+
